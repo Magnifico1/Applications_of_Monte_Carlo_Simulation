@@ -24,9 +24,11 @@ When computing the probability $\mathrm{Pr}(X>Y)$, it is first helpful to have a
 ```{r,warning=FALSE,out.width="80%",fig.align='center'}
 library(ggplot2)
 x=seq(-10,18,by=0.01)
+#distributions
 dists<-data.frame(x=x,X=dnorm(x,mean=4,sd=sqrt(10)),Y=dunif(x,min=2,max=8))
 data1<-dists[dists$x<2,]
 data2<-dists[dists$x>8,]
+#plot distributions
 ggplot(dists)+geom_ribbon(data=data1,aes(x=x,ymin=Y,ymax=X), fill="grey")+
   geom_ribbon(data=data2,aes(x=x,ymin=Y,ymax=X), fill="grey")+
   geom_line(aes(x=x,y=X),colour="red")+
