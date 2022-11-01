@@ -279,7 +279,7 @@ data<-data.frame(no_games=no_games,ml0=ml(0),ml.1=ml(.1),ml.2=ml(.2),ml.3=ml(.3)
                  ml.4=ml(.4),ml.5=ml(.5),ml.6=ml(.6),ml.7=ml(.7),ml.8=ml(.8),
                  ml.9=ml(.9),ml1=ml(1))
 #plot games played against maximum likelihood probabilities for each assumed win rate w"
-ggplot(data)+stat_smooth(aes(x=no_games,y=ml0,colour="p=0"),se=FALSE)+
+ggplot(data)+geom_smooth(aes(x=no_games,y=ml0,colour="p=0"),se=FALSE)+
      geom_smooth(aes(x=no_games,y=ml.1,colour="p=0.1"),se=FALSE)+
      geom_smooth(aes(x=no_games,y=ml.2,colour="p=0.2"),se=FALSE)+
      geom_smooth(aes(x=no_games,y=ml.3,colour="p=0.3"),se=FALSE)+
