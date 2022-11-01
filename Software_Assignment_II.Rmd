@@ -36,7 +36,7 @@ ggplot(dists)+geom_ribbon(data=data1,aes(x=x,ymin=Y,ymax=X), fill="grey")+
 
 ```
 
-The above graph shows the two distributions - X in red and Y in blue. The shaded region corresponds to the region in which the value of X is greater than Y. It can be seen that the exact value of $\mathrm{Pr}(X>Y)$ can therefore be calculated as follows:
+The above graph shows the two distributions - $X$ in red and $Y$ in blue. The shaded region corresponds to the region in which the value of X is greater than Y. It can be seen that the exact value of $\mathrm{Pr}(X>Y)$ can therefore be calculated as follows:
 
 ```{r}
 P=pnorm(2,4,sqrt(10))+pnorm(8,4,sqrt(10),lower.tail=FALSE)
