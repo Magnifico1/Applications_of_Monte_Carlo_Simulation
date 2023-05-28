@@ -19,6 +19,6 @@ $Y∼U(a=2,b=8)$
 
 Consider the following football tournament format: a team keeps playing until they accrue 7 wins or 3 losses (whichever comes first - no draws allowed). Assume a fixed win rate $p∈[0,1]$ across all rounds (they are paired at random).
 
-Plot how the total number of matches played (i.e. wins + losses) varies as a function of $p$.
+* Plot how the total number of matches played (i.e. wins + losses) varies as a function of $p$.
 
-Comment on the observed win rate relative to the assumed win rate p (i.e. if a team obtains 2 wins - 3 losses, the maximum likelihood point estimate for their win rate is 40%). Specifically, focus on the effect driven by the format of this tournament.
+* Comment on the observed win rate relative to the assumed win rate p (i.e. if a team obtains 2 wins - 3 losses, the maximum likelihood point estimate for their win rate is 40%). Specifically, focus on the effect driven by the format of this tournament.
