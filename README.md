@@ -5,8 +5,10 @@ Using Monte Carlo simulation with parallel computation techniques to solve two p
 
 Consider the following independent random variables:
 
-$X∼N(\μ=4,\σ^2=10)$
+$X∼N(μ=4,\σ^2=10)$
+
 $Y∼U(a=2,b=8)$
+
 Compute the probability that X>Y, i.e. Pr(X>Y).
 
 Use bootstrapping to derive the sampling distribution for your estimate of Pr(X>Y).
