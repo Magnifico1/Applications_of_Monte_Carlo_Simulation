@@ -1,19 +1,19 @@
 # Applications_of_Monte_Carlo_Simulation
 Using Monte Carlo simulation with parallel computation techniques to solve two problems
 
-Problem A
+## Problem A
 
 Consider the following independent random variables:
 
-X∼N(μ=4,σ2=10)
-Y∼U(a=2,b=8)
+$X∼N(\μ=4,\σ^2=10)
+Y∼U(a=2,b=8)$
 Compute the probability that X>Y, i.e. Pr(X>Y).
 
 Use bootstrapping to derive the sampling distribution for your estimate of Pr(X>Y).
 
 Show how the sample variance of this sampling distribution changes as a function of the number of Monte Carlo simulations.
 
-Problem B
+## Problem B
 
 Consider the following football tournament format: a team keeps playing until they accrue 7 wins or 3 losses (whichever comes first - no draws allowed). Assume a fixed win rate p∈[0,1] across all rounds (they are paired at random).
 
