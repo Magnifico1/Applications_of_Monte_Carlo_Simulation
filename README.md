@@ -9,11 +9,11 @@ $X∼N(μ=4,σ^2=10)$
 
 $Y∼U(a=2,b=8)$
 
-Compute the probability that $X>Y$, i.e. $Pr(X>Y)$.
+* Compute the probability that $X>Y$, i.e. $Pr(X>Y)$.
 
-Use bootstrapping to derive the sampling distribution for the estimate of $Pr(X>Y)$.
+* Use bootstrapping to derive the sampling distribution for the estimate of $Pr(X>Y)$.
 
-Show how the sample variance of this sampling distribution changes as a function of the number of Monte Carlo simulations.
+* Show how the sample variance of this sampling distribution changes as a function of the number of Monte Carlo simulations.
 
 ## Problem B
 
