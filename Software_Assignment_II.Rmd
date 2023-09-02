@@ -1,7 +1,7 @@
 ---
 title: 'MT5763: Software for Data Analysis Assignment 2'
-author: "Alex Ross"
-date: '2022-10-29'
+author: "Alexander Ross"
+date: '29-10-2022'
 output:
   pdf_document: default
   html_document:
