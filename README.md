@@ -1,5 +1,5 @@
 # Applications_of_Monte_Carlo_Simulation
-Using Monte Carlo simulation with parallel computation techniques to solve two problems
+Using Monte Carlo simulation with parallel computation techniques to solve two problems:
 
 ## Problem A
 
